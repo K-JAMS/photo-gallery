@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+@media only screen and (max-width:1920px) {
+  .view{
+    width
+    : 30%;
+  }
+  .viewCerts{
+    width: 60%;
+  }
+}
+@media only screen and (max-width:1366px) {
+  .view{
+    width: 30%;
+  }
+  .viewCerts{
+    width: 60%;
+  }
+}
+@media only screen and (max-width:820px) {
+  .view{
+    width: 80%;
+  }
+  .viewCerts{
+    width: 80%;
+  }
+}
