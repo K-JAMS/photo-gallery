@@ -17,12 +17,12 @@ const Projects = ({ theme, setTheme, handleTheme }) => {
   ];
 
   const digi = [
-    "/img/projs/Digital1.jpg",
-    "/img/projs/Digital2.jpg",
-    "/img/projs/Digital3.png",
-    "/img/projs/Digital4.PNG",
-    "/img/projs/Digital5.jpg",
-    "/img/projs/Digital6.gif",
+    "./img/projs/Digital1.jpg",
+    "./img/projs/Digital2.jpg",
+    "./img/projs/Digital3.png",
+    "./img/projs/Digital4.PNG",
+    "./img/projs/Digital5.jpg",
+    "./img/projs/Digital6.gif",
   ];
 
   return (

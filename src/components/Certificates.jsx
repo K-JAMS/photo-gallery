@@ -9,15 +9,15 @@ const Certificates = ({ theme, setTheme, handleTheme }) => {
     };
 
   const images = [
-    "/img/certs/Cert1.jpg",
-    "/img/certs/Cert2.jpg",
-    "/img/certs/Cert3.jpg",
-    "/img/certs/Cert4.jpg",
-    "/img/certs/Cert5.jpg",
-    "/img/certs/Cert6.jpg",
-    "/img/certs/Cert7.jpg",
-    "/img/certs/Cert8.jpg",
-    "/img/certs/Cert9.png",
+    "./img/certs/Cert1.jpg",
+    "./img/certs/Cert2.jpg",
+    "./img/certs/Cert3.jpg",
+    "./img/certs/Cert4.jpg",
+    "./img/certs/Cert5.jpg",
+    "./img/certs/Cert6.jpg",
+    "./img/certs/Cert7.jpg",
+    "./img/certs/Cert8.jpg",
+    "./img/certs/Cert9.png",
   ];
 
   return (
