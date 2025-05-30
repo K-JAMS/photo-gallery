@@ -8,12 +8,12 @@ const Projects = ({ theme, setTheme, handleTheme }) => {
     setModel(true);
   };
   const edit = [
-    "/img/projs/Edit1.jpg",
-    "/img/projs/Edit2.jpg",
-    "/img/projs/Edit3.jpg",
-    "/img/projs/Edit4.jpg",
-    "/img/projs/Edit5.jpg",
-    "/img/projs/Edit6.jpg",
+    "./img/projs/Edit1.jpg",
+    "./img/projs/Edit2.jpg",
+    "./img/projs/Edit3.jpg",
+    "./img/projs/Edit4.jpg",
+    "./img/projs/Edit5.jpg",
+    "./img/projs/Edit6.jpg",
   ];
 
   const digi = [
