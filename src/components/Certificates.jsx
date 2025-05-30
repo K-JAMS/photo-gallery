@@ -30,7 +30,7 @@ const Certificates = ({ theme, setTheme, handleTheme }) => {
       <div
         className={`${
           model ? "visible opacity-100" : "invisible opacity-0"
-        }  min-h-screen w-full -mt-50 -ml-10 fixed flex justify-center items-center bg-black/80 transition duration-300 overflow-hidden z-50`}
+        }  min-h-screen w-full -mt-60 -ml-10 fixed flex justify-center items-center bg-black/80 transition duration-300 overflow-hidden z-50`}
       >
         <button
           className="absolute top-1 right-2 text-white text-4xl bg-white-600 px-2  hover:text-gray-400 transition duration-300 cursor-pointer"
